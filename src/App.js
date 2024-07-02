@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Props_first from "./topics/Props_first";
 import Fetching_API_Data from "./topics/Fetching_API_Data";
+import UseEfect from "./topics/UseEfect";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <br />
       <hr />
       <Fetching_API_Data />
+      <br />
+      <hr />
+      <UseEfect />
     </div>
   );
 }
